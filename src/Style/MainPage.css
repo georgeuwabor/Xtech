@@ -1,0 +1,29 @@
+@import url("https://fonts.cdnfonts.com/css/derpache-caps");
+
+.infoart-img {
+  display: block;
+  vertical-align: middle;
+  margin-top: 3.5rem;
+  margin-left: 5rem;
+  border-radius: 9999px;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  margin-right: 0.5rem;
+  max-width: 100%;
+  overflow-clip-margin: content-box;
+}
+
+.infodesc-img {
+  display: block;
+  margin-top: 2.5rem;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  width: 50%;
+  opacity: 1;
+  transform: translateZ(0) scale(1);
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-property: opacity, transform, -webkit-transform;
+}
